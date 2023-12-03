@@ -1,15 +1,17 @@
 ---
 layout: download
-board_id: "raspberry_pi_pico"
-title: "Pico Download"
-name: "Pico"
-manufacturer: "Raspberry Pi"
-board_url: "https://www.adafruit.com/product/4883"
-board_image: "raspberry_pi_pico.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-micropython-using-the-raspberry-pi-pico"
+board_id: "raspberry_breadstick"
+title: "Raspberry Breadstick Download"
+name: "Raspberry Breadstick"
+manufacturer: "Breadstick Innovations"
+board_url: "https://www.adafruit.com/product/4883" # change
+board_image: "raspberry_breadstick.jpg"
+download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-micropython-using-the-raspberry-pi-pico" #leave blank as we dont have instructions
 downloads_display: true
 blinka: true
-date_added: 2021-5-20
+date_added: 2021-5-20 #change to date that the new board was merged in and released in Blinka -- Future date?
+features:
+  - USB 3.0
 ---
 
 The Raspberry Pi foundation changed single-board computing when they released the Raspberry Pi computer, now they're ready to do the same for microcontrollers with the release of the brand new **Raspberry Pi Pico**. This low-cost microcontroller board features a powerful new chip, the **RP2040**, and all the fixin's to get started with embedded electronics projects at a stress-free price.
